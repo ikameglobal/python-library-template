@@ -7,12 +7,7 @@
 ####################################################
 #               INPUTS FROM USER                   #
 ####################################################
-read -p "Enter github username: " github_username
-# If github username is not provided, warn user and exit
-if [ -z "$github_username" ]; then
-    echo "Github username is required"
-    exit 1
-fi
+github_username="ikameglobal"
 
 read -p "Enter package name: " package_name
 # If package name is not provided, warn user and exit
